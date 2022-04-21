@@ -11,13 +11,13 @@ font_data = ExtResource( 3 )
 [sub_resource type="DynamicFont" id=2]
 size = 40
 outline_size = 1
-outline_color = Color( 0.2, 0.929412, 0.0941176, 1 )
+outline_color = Color( 0.172549, 0.917647, 0.0627451, 1 )
 font_data = ExtResource( 3 )
 
 [sub_resource type="DynamicFont" id=3]
 size = 40
 outline_size = 1
-outline_color = Color( 0.905882, 0.0862745, 0.0862745, 1 )
+outline_color = Color( 0.882353, 0.101961, 0.101961, 1 )
 font_data = ExtResource( 3 )
 
 [node name="Main_Menu" type="Control"]
@@ -49,7 +49,7 @@ __meta__ = {
 margin_left = 368.0
 margin_top = 280.0
 margin_right = 668.0
-margin_bottom = 330.0
+margin_bottom = 320.0
 custom_fonts/font = SubResource( 2 )
 text = "Play"
 __meta__ = {
@@ -57,12 +57,10 @@ __meta__ = {
 }
 
 [node name="Quit" type="Button" parent="."]
-anchor_right = 0.006
-anchor_bottom = 0.033
 margin_left = 368.0
-margin_top = 360.0
-margin_right = 661.856
-margin_bottom = 390.2
+margin_top = 352.0
+margin_right = 668.0
+margin_bottom = 392.0
 custom_fonts/font = SubResource( 3 )
 text = "Quit"
 __meta__ = {
