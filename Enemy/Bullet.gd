@@ -16,6 +16,8 @@ func _physics_process(_delta):
 	position.y = wrapf(position.y, 0, Global.VP.y)
 	
 
+func damage(d):
+	queue_free()
 
 func _on_Area2D_body_entered(body):
 	if body.name != "Enemy":

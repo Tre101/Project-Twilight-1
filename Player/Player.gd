@@ -8,7 +8,7 @@ var max_speed = 400.0
 var health = 1
 
 var shields = 0
-var shield_regen = 2
+var shield_regen = .02
 var shield_max = 50
 var shield_textures = [
 	preload("res://Assets/shield1.png"),
